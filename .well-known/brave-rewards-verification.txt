@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: gb-hoster.me
+Token: 0073c26d1c329e86b49186167e375c29ac9ab8bdedd92ae6f7b45d723007dc82

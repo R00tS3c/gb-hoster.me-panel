@@ -1,0 +1,39 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:37:56] 
+[23:37:56] Server Plugins
+[23:37:56] --------------
+[23:37:56]  Loaded 0 plugins.
+
+[23:37:56] I couldn't load any gamemode scripts. Please verify your server.cfg
+[23:37:56] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:38:43] filterscripts = ""  (string)
+[23:38:43] 
+[23:38:43] Server Plugins
+[23:38:43] --------------
+[23:38:43]  Loaded 0 plugins.
+
+[23:38:43] 
+[23:38:43] Filterscripts
+[23:38:43] ---------------
+[23:38:43]   Loaded 0 filterscripts.
+
+[23:38:43] Script[gamemodes/VZRP.amx]: Run time error 19: "File or function is not found"
+[23:38:43] Number of vehicle models: 0
+                                    

@@ -1,0 +1,649 @@
+######################
+
+#+                  +#
+
+#   MENU SETTINGS    #
+
+#+                  +#
+
+######################
+
+
+
+menu-settings:
+
+
+
+  # name - appears as the title - REQUIRED
+
+  name: '&a&lOdaberi igru:'
+
+
+
+  # rows - the number of rows of the chest - REQUIRED
+
+  rows: 6
+
+
+
+  # command - OPTIONAL (you can remove this or set it to '')
+
+  # Bind multiple commands using ; (command: 'menu; m; me')
+
+  command: 'servers'
+
+
+
+  # The sound played whenever the menu is opened.
+
+  # List of sounds:
+
+  # jd.bukkit.org/rb/apidocs/org/bukkit/Sound.html
+
+  open-sound: NOTE_PLING
+
+
+
+  # open-with-item - OPTIONAL
+
+  # The menu will open only right-clicking with orange wool [35:1]
+
+  open-with-item:
+
+    item-id: 
+
+    left-click: false
+
+    right-click: true
+
+    data-value: 1
+
+
+
+
+
+######################
+
+#+                  +#
+
+#       ITEMS        #
+
+#+                  +#
+
+######################
+
+
+
+
+
+lobby:
+
+  COMMAND: 'op:mvtp world'
+
+  NAME: '&a&lHUB'
+
+  LORE:
+
+  ID: 355
+
+  POSITION-X: 5
+
+  POSITION-Y: 6
+
+
+
+Faction:
+
+  COMMAND: 'server skywars'
+
+  NAME: '&3&lSkyWars'
+
+  LORE:
+
+  ID: 368
+
+  POSITION-X: 4
+
+  POSITION-Y: 3
+
+test:
+
+  COMMAND: 'server skypvp'
+
+  NAME: '&3&lSkyPvP'
+
+  LORE:
+
+  ID: 276
+
+  POSITION-X: 5
+
+  POSITION-Y: 3
+
+  
+
+monkey:
+
+  COMMAND: 'server skyblock'
+
+  NAME: '&3&lSkyBlock'
+
+  LORE:
+
+  ID: 326
+
+  DATA: 14
+
+  POSITION-X: 6
+
+  POSITION-Y: 3
+
+  
+
+  
+
+lachecraft:
+
+  COMMAND: 'server prison'
+
+  NAME: '&3&lPrison'
+
+  LORE:
+
+  ID: diamond_pickaxe
+
+  POSITION-X: 5
+
+  POSITION-Y: 4
+
+
+
+none1:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:0,1
+
+  POSITION-X: 1
+
+  POSITION-Y: 1
+
+
+
+none2:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:9,1
+
+  POSITION-X: 2
+
+  POSITION-Y: 1
+
+
+
+none3:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:11,1
+
+  POSITION-X: 3
+
+  POSITION-Y: 1
+
+
+
+none4:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:0,1
+
+  POSITION-X: 4
+
+  POSITION-Y: 1
+
+
+
+none5:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:9,1
+
+  POSITION-X: 5
+
+  POSITION-Y: 1
+
+
+
+none6:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:11,1
+
+  POSITION-X: 6
+
+  POSITION-Y: 1
+
+
+
+none7:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:0,1
+
+  POSITION-X: 7
+
+  POSITION-Y: 1
+
+
+
+none8:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:9,1
+
+  POSITION-X: 8
+
+  POSITION-Y: 1
+
+
+
+none9:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:11,1
+
+  POSITION-X: 9
+
+  POSITION-Y: 1
+
+
+
+none10:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:11,1
+
+  POSITION-X: 1
+
+  POSITION-Y: 2
+
+
+
+none11:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:9,1
+
+  POSITION-X: 1
+
+  POSITION-Y: 3
+
+
+
+none12:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:11,1
+
+  POSITION-X: 1
+
+  POSITION-Y: 4
+
+
+
+none13:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:0,1
+
+  POSITION-X: 1
+
+  POSITION-Y: 5
+
+
+
+none1100:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:9,1
+
+  POSITION-X: 1
+
+  POSITION-Y: 6
+
+
+
+
+
+none14:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:11,1
+
+  POSITION-X: 2
+
+  POSITION-Y: 6
+
+
+
+none15:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:0,1
+
+  POSITION-X: 3
+
+  POSITION-Y: 6
+
+
+
+none17:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:9,1
+
+  POSITION-X: 4
+
+  POSITION-Y: 6
+
+
+
+none18:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:11,1
+
+  POSITION-X: 6
+
+  POSITION-Y: 6
+
+
+
+none19:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:0,1
+
+  POSITION-X: 7
+
+  POSITION-Y: 6
+
+
+
+none20:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:9,1
+
+  POSITION-X: 8
+
+  POSITION-Y: 6
+
+
+
+none21:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:11,1
+
+  POSITION-X: 9
+
+  POSITION-Y: 6
+
+
+
+none22:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:0,1
+
+  POSITION-X: 9
+
+  POSITION-Y: 2
+
+
+
+none23:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:9,1
+
+  POSITION-X: 9
+
+  POSITION-Y: 3
+
+
+
+none24:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:11,1
+
+  POSITION-X: 9
+
+  POSITION-Y: 4
+
+
+
+none25:
+
+  COMMAND: ''
+
+  NAME: '&3Demon!'
+
+  LORE:
+
+    - ''
+
+  ID: 160:9,1
+
+  POSITION-X: 9
+
+  POSITION-Y: 5
+
+  SKULL-OWNER: 'Demon'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    

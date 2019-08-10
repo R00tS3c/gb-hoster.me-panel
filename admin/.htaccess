@@ -1,0 +1,21 @@
+RewriteEngine on
+
+
+RewriteRule    ^profil$    profil.php    [QSA,L,NC]    
+RewriteRule    ^login$    login.php    [QSA,L,NC]  
+RewriteRule    ^avatar$    avatar.php    [QSA,L,NC]  
+RewriteRule    ^chatprocess$    chatprocess.php    [QSA,L,NC]  
+RewriteRule    ^includes$    includes.php    [QSA,L,NC]  
+RewriteRule    ^konfiguracija$    konfiguracija.php    [QSA,L,NC]  
+RewriteRule    ^login_process$    login_process.php    [QSA,L,NC] 
+RewriteRule    ^profil_process$    profil_process.php    [QSA,L,NC]  
+RewriteRule    ^mojprofil$    mojprofil.php    [QSA,L,NC]  
+RewriteRule    ^logovi$    logovi.php    [QSA,L,NC]  
+RewriteRule    ^logovi/([0-9]+)/?$    logovi.php?strana=$1    [NC,L]  
+RewriteRule    ^errorlog$    error_log.php    [QSA,L,NC]  
+RewriteRule    ^errorlog/([0-9]+)/?$    error_log.php?strana=$1    [NC,L]  
+RewriteRule    ^kerror_log$    kerror_log.php    [QSA,L,NC]  
+RewriteRule    ^kerror_log/([0-9]+)/?$    kerror_log.php?strana=$1    [NC,L]  
+RewriteRule    ^([a-z]+)$    login_process.php?task=$1    [NC,L] 
+
+php_value date.timezone 'Europe/Belgrade'

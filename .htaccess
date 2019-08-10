@@ -1,0 +1,34 @@
+RewriteEngine on
+
+RewriteRule ^home$								"index.php"
+RewriteRule ^gamepanel$							"gp-home.php"
+RewriteRule ^register$							"register.php"
+RewriteRule ^img/$								"/error.php"
+RewriteRule ^css/$								"/error.php"
+RewriteRule ^js/$								"/error.php"
+RewriteRule ^SQL/$								"/error.php"
+RewriteRule ^fonts/$							"/error.php"
+RewriteRule ^plugin_amxx/$						"/error.php"
+RewriteRule ^connect_db.php$					"/error.php"
+RewriteRule ^style/$							"/error.php"
+RewriteRule ^_cache/$							"/error.php"
+RewriteRule ^inc/$								"/error.php"
+RewriteRule ^fnc/$								"/error.php"
+RewriteRule ^includes/$							"/error.php"
+RewriteRule ^demo$								"/demo.php"
+
+php_value date.timezone 'Europe/Belgrade'
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_value memory_limit 512M
+   php_value date.timezone "Europe/Belgrade"
+</IfModule>
+<IfModule lsapi_module>
+   php_value memory_limit 512M
+   php_value date.timezone "Europe/Belgrade"
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

@@ -1,0 +1,12 @@
+
+
+
+#!/bin/bash
+
+
+ls -lRt | grep -i -e '.*.tar.gz' | while read -a arr ; do 
+
+  wget -qO- "http://gb-hoster.ml/admin/cronovi/backup-api.php?task=newbase&name=${arr[8]}&size=${arr[4]}"
+  echo "\n"
+  #echo "perms=${arr[8]} ; size=${arr[4]}" ;
+done

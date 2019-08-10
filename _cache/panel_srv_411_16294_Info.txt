@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<style type=text/css">
+		body {VIP
+			background-color: #000000;
+			font-family:Verdana,Tahoma;
+		}
+	</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ </head>
+ <body>
+  <h1>•VIP Info:</h1>
+<h1>VIP ima BunnyHop</h1>
+<h1>VIP ima Double Jump</h1>
+<h1>•VIP ima jos mnogo zanimljivih stvari</h1>
+<h1>Cena VIP-a je 1x Boost</h1>
+ </body>
+</html>
+                                                                                                                                                                                    

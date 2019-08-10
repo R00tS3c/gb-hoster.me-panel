@@ -1,0 +1,155 @@
+Punishments:
+  '1':
+    name: asdasdasd
+    uuid: 5cf0aeddefb44596b2c3398faca9dedf
+    reason: '&fWATCHDOG CHEAT DETECTION &7&o[CR-216121]'
+    operator: CONSOLE
+    punishmentType: BAN
+    start: 1509262338105
+    end: -1
+  '4':
+    name: ayana
+    uuid: f7e36ab51abf4ad899122a64554ed4b4
+    reason: No Reason Specified
+    operator: CONSOLE
+    punishmentType: BAN
+    start: 1509869187813
+    end: -1
+  '5':
+    name: winkblue
+    uuid: da745e591b1541d5a05368c8d53e7fd8
+    reason: No Reason Specified
+    operator: CONSOLE
+    punishmentType: BAN
+    start: 1509869188081
+    end: -1
+  '6':
+    name: _misuftw
+    uuid: 9f575453554e4204b23e740255ad83eb
+    reason: No Reason Specified
+    operator: CONSOLE
+    punishmentType: BAN
+    start: 1509869188103
+    end: -1
+  '7':
+    name: zamagicdk
+    uuid: db88ba5ba0384d29814d81acfd9b2d10
+    reason: No Reason Specified
+    operator: CONSOLE
+    punishmentType: BAN
+    start: 1509869188129
+    end: -1
+  '2':
+    name: mihaimalos
+    uuid: 19600bba0e7a4c1ea0ced1a8b611b6ec
+    reason: none
+    operator: Rcon
+    punishmentType: BAN
+    start: 1510401422774
+    end: -1
+  '3':
+    name: kazi
+    uuid: a1a79b9b8e764629b013027dc5b99082
+    reason: kazi
+    operator: DakiX
+    punishmentType: BAN
+    start: 1564176010255
+    end: -1
+  '8':
+    name: testing
+    uuid: 504e35e4ee3645e0b1d37ad419311644
+    reason: none
+    operator: DakiX
+    punishmentType: BAN
+    start: 1564230278003
+    end: -1
+PunishmentHistory:
+  '1':
+    name: asdasdasd
+    uuid: 5cf0aeddefb44596b2c3398faca9dedf
+    reason: '&fWATCHDOG CHEAT DETECTION &7&o[CR-216121]'
+    operator: CONSOLE
+    punishmentType: BAN
+    start: 1509262338105
+    end: -1
+  '2':
+    name: mihaimalos
+    uuid: 19600bba0e7a4c1ea0ced1a8b611b6ec
+    reason: none
+    operator: Rcon
+    punishmentType: BAN
+    start: 1510401422774
+    end: -1
+  '3':
+    name: kazi
+    uuid: a1a79b9b8e764629b013027dc5b99082
+    reason: kazi
+    operator: DakiX
+    punishmentType: BAN
+    start: 1564176010255
+    end: -1
+  '4':
+    name: ayana
+    uuid: f7e36ab51abf4ad899122a64554ed4b4
+    reason: No Reason Specified
+    operator: CONSOLE
+    punishmentType: BAN
+    start: 1509869187813
+    end: -1
+  '5':
+    name: winkblue
+    uuid: da745e591b1541d5a05368c8d53e7fd8
+    reason: No Reason Specified
+    operator: CONSOLE
+    punishmentType: BAN
+    start: 1509869188081
+    end: -1
+  '6':
+    name: _misuftw
+    uuid: 9f575453554e4204b23e740255ad83eb
+    reason: No Reason Specified
+    operator: CONSOLE
+    punishmentType: BAN
+    start: 1509869188103
+    end: -1
+  '7':
+    name: zamagicdk
+    uuid: db88ba5ba0384d29814d81acfd9b2d10
+    reason: No Reason Specified
+    operator: CONSOLE
+    punishmentType: BAN
+    start: 1509869188129
+    end: -1
+  '8':
+    name: testing
+    uuid: 504e35e4ee3645e0b1d37ad419311644
+    reason: none
+    operator: DakiX
+    punishmentType: BAN
+    start: 1564230278003
+    end: -1
+  '9':
+    name: zan2
+    uuid: 6311df7997f246bc83578154670cfba3
+    reason: cao
+    operator: SRGUTT
+    punishmentType: BAN
+    start: 1564265423917
+    end: -1
+  '10':
+    name: dakimc
+    uuid: 94.156.174.134
+    reason: Reklamiranje
+    operator: Zan2
+    punishmentType: IP_BAN
+    start: 1564265046961
+    end: -1
+  '11':
+    name: dakimc
+    uuid: 9db0863868024869b6d0b73dd70400ba
+    reason: Reklamiranje
+    operator: Zan2
+    punishmentType: TEMP_MUTE
+    start: 1564265090215
+    end: 1566425090212
+                                    

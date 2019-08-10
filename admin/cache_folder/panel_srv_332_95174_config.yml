@@ -1,0 +1,15 @@
+ip_forward: true
+network_compression_threshold: 256
+stats: c90cee11-c4e5-438e-8008-2ff448002cda
+groups: RootSec: - admin
+servers: Lobby-1: motd: ' §b§l§m §8§l§m[ §r §9§lMinePlex§r §f§lGames§r §8§l§m ]§b§l§m §r' address: 94.156.174.134:25569 restricted: false Test-1: motd: 'no' address: 94.156.174.134:25570 restricted: false
+timeout: 30000
+player_limit: -1
+listeners:
+- query_port: 25568 motd: taco priorities: - Lobby-1 - Test-1 bind_local_address: true tab_list: GLOBAL_PING query_enabled: false host: 94.156.174.134:25568 forced_hosts: 127.0.0.1: Hub max_players: 120 tab_size: 80 ping_passthrough: false force_default_server: true
+permissions: default: - bungeecord.command.server - bungeecord.command.list - pingplayer.ping admin: - bungeecord.command.alert - bungeecord.command.end - pingplayer.* - bungeecord.command.find - bungeecord.command.send - bungeecord.command.ip - bungeecord.command.* - bungeecord.command.reload
+online_mode: false
+log_commands: false
+disabled_commands:
+- disabledcommandhere
+connection_throttle: 4000

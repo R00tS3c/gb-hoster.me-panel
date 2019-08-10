@@ -1,0 +1,7 @@
+bb_assault1.bsp
+bb_autumn.bsp
+bb_base_b3.bsp
+bb_castle_final.bsp
+bb_cg_hard_base_v4.bsp
+bb_cl_maker.bsp
+bb_inferno_iplay.bsp                                   

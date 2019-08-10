@@ -1,0 +1,348 @@
+# 
+# +------------------------------------------------------+ #
+# |                       Notes                          | #
+# +------------------------------------------------------+ #
+ops-name-color: ''
+nickname-prefix: ''
+max-nick-length: 30
+ignore-colors-in-max-nick-length: false
+change-displayname: true
+change-playerlist: false
+teleport-safety: true
+force-disable-teleport-safety: false
+teleport-cooldown: 0
+teleport-delay: 3
+teleport-invulnerability: 4
+teleport-to-center: true
+heal-cooldown: 60
+near-radius: 200
+permission-based-item-spawn: false
+spawnmob-limit: 10
+warn-on-smite: true
+drop-items-if-full: false
+notify-no-new-mail: false
+notify-player-of-mail-cooldown: 60
+socialspy-commands:
+- msg
+- w
+- r
+- mail
+- m
+- t
+- whisper
+- emsg
+- tell
+- er
+- reply
+- ereply
+- email
+- action
+- describe
+- eme
+- eaction
+- edescribe
+- etell
+- ewhisper
+- pm
+socialspy-listen-muted-players: true
+mute-commands:
+- f
+- kittycannon
+player-commands:
+- afk
+- afk.auto
+- back
+- back.ondeath
+- balance
+- balance.others
+- balancetop
+- build
+- chat.color
+- chat.format
+- chat.shout
+- chat.question
+- clearinventory
+- compass
+- depth
+- delhome
+- getpos
+- geoip.show
+- help
+- helpop
+- home
+- home.others
+- ignore
+- info
+- itemdb
+- kit
+- kits.tools
+- list
+- mail
+- mail.send
+- me
+- motd
+- msg
+- msg.color
+- nick
+- near
+- pay
+- ping
+- protect
+- r
+- rules
+- realname
+- seen
+- sell
+- sethome
+- setxmpp
+- signs.create.protection
+- signs.create.trade
+- signs.break.protection
+- signs.break.trade
+- signs.use.balance
+- signs.use.buy
+- signs.use.disposal
+- signs.use.enchant
+- signs.use.free
+- signs.use.gamemode
+- signs.use.heal
+- signs.use.info
+- signs.use.kit
+- signs.use.mail
+- signs.use.protection
+- signs.use.repair
+- signs.use.sell
+- signs.use.time
+- signs.use.trade
+- signs.use.warp
+- signs.use.weather
+- spawn
+- suicide
+- time
+- tpa
+- tpaccept
+- tpahere
+- tpdeny
+- warp
+- warp.list
+- world
+- worth
+- xmpp
+skip-used-one-time-kits-from-kit-list: false
+pastebin-createkit: false
+enabledSigns:
+- color
+- balance
+- buy
+- sell
+- trade
+- free
+- disposal
+- warp
+- kit
+- mail
+- enchant
+- gamemode
+- heal
+- info
+- spawnmob
+- repair
+- time
+- weather
+sign-use-per-second: 4
+backup:
+  interval: 30
+per-warp-permission: false
+list:
+  StaffTeam: Vlasnik Developer HeadAdmin Admin Moderator Helper
+  Igraci: Pocetnik Vip Elite Master Genius Legend PvPer PvPerPlus
+  Donatori: Falcon
+debug: false
+remove-god-on-disconnect: false
+auto-afk: 300
+auto-afk-kick: -1
+freeze-afk-players: false
+disable-item-pickup-while-afk: true
+cancel-afk-on-interact: true
+cancel-afk-on-move: true
+afk-list-name: none
+death-messages: false
+allow-silent-join-quit: false
+custom-join-message: '&a+ &f{PLAYER}'
+custom-quit-message: '&c- &f{PLAYER}'
+world-teleport-permissions: false
+default-stack-size: -1
+oversized-stacksize: 64
+repair-enchanted: true
+unsafe-enchantments: true
+register-back-in-listener: false
+login-attack-delay: 5
+max-fly-speed: 0.8
+max-walk-speed: 0.8
+mails-per-minute: 1000
+max-tempban-time: -1
+last-message-reply-recipient: true
+last-message-reply-recipient-timeout: 180
+milk-bucket-easter-egg: true
+send-fly-enable-on-join: false
+world-time-permissions: false
+command-cooldown-persistence: true
+npcs-in-balance-ranking: false
+allow-bulk-buy-sell: true
+delay-motd: 0
+default-enabled-confirm-commands:
+- pay
+update-bed-at-daytime: true
+world-home-permissions: false
+sethome-multiple:
+  default: 3
+  vip: 5
+  staff: 10
+tpa-accept-cancellation: 120
+allow-direct-hat: true
+starting-balance: 0
+currency-symbol: $
+max-money: 10000000000000
+min-money: 0
+economy-log-enabled: false
+use-bukkit-permissions: true
+minimum-pay-amount: 1.0E-20
+non-ess-in-help: true
+hide-permissionless-help: true
+chat:
+  radius: 0
+  format: '{DISPLAYNAME} &8» &f{MESSAGE}'
+  group-formats:
+    Pocetnik: '{DISPLAYNAME} &8» &e{MESSAGE}'
+    Vip: '{DISPLAYNAME} &8» &9{MESSAGE}'
+    Elite: '{DISPLAYNAME} &8» &2{MESSAGE}'
+    Master: '{DISPLAYNAME} &8» &c{MESSAGE}'
+    Genius: '{DISPLAYNAME} &8» &5{MESSAGE}'
+    Legend: '{DISPLAYNAME} &8» &a{MESSAGE}'
+    PvPer: '{DISPLAYNAME} &8» &6{MESSAGE}'
+    PvPer+: '{DISPLAYNAME} &8» &6{MESSAGE}'
+    Falcon: '{DISPLAYNAME} &8» &5{MESSAGE}'
+    Helper: '{DISPLAYNAME} &8» &9&l{MESSAGE}'
+    Moderator: '{DISPLAYNAME} &8» &5&l{MESSAGE}'
+    Admin: '{DISPLAYNAME} &8» &c&l{MESSAGE}'
+    HeadAdmin: '{DISPLAYNAME} &8» &4&l{MESSAGE}'
+    Developer: '{DISPLAYNAME} &8» &4&l{MESSAGE}'
+    Vlasnik: '{DISPLAYNAME} &8» &b{MESSAGE}'
+protect:
+  prevent:
+    lava-flow: false
+    water-flow: false
+    water-bucket-flow: false
+    fire-spread: true
+    lava-fire-spread: true
+    flint-fire: false
+    lightning-fire-spread: true
+    portal-creation: false
+    tnt-explosion: false
+    tnt-playerdamage: false
+    tnt-minecart-explosion: false
+    tnt-minecart-playerdamage: false
+    fireball-explosion: false
+    fireball-fire: false
+    fireball-playerdamage: false
+    witherskull-explosion: false
+    witherskull-playerdamage: false
+    wither-spawnexplosion: false
+    wither-blockreplace: false
+    creeper-explosion: false
+    creeper-playerdamage: false
+    creeper-blockdamage: false
+    enderdragon-blockdamage: true
+    enderman-pickup: false
+    villager-death: false
+    entitytarget: false
+    spawn:
+      creeper: false
+      skeleton: false
+      spider: false
+      giant: false
+      zombie: false
+      slime: false
+      ghast: false
+      pig_zombie: false
+      enderman: false
+      cave_spider: false
+      silverfish: false
+      blaze: false
+      magma_cube: false
+      ender_dragon: false
+      pig: false
+      sheep: false
+      cow: false
+      chicken: false
+      squid: false
+      wolf: false
+      mushroom_cow: false
+      snowman: false
+      ocelot: false
+      iron_golem: false
+      villager: false
+      wither: false
+      bat: false
+      witch: false
+      horse: false
+  creeper:
+    max-height: -1
+  disable:
+    fall: false
+    pvp: false
+    drown: false
+    suffocate: false
+    lavadmg: false
+    projectiles: false
+    contactdmg: false
+    firedmg: false
+    lightning: false
+    wither: false
+    weather:
+      storm: false
+      thunder: false
+      lightning: false
+    build: true
+    use: true
+    warn-on-build-disallow: true
+  alert:
+    on-placement: 10,11,46,327
+    on-use: 327
+  blacklist:
+    placement: 10,11,46,327
+    usage: 327
+newbies:
+  announce-format: ''
+  spawnpoint: newbies
+  kit: ''
+respawn-listener-priority: high
+spawn-join-listener-priority: high
+respawn-at-home: false
+spawn-on-join: false
+kits:
+  Pocetnik:
+    delay: 15
+    items:
+    - 286:0 1
+    - 298:0 1
+    - 315:0 1
+    - 316:0 1
+    - 317:0 1
+    - 261:0 1
+    - 262:0 64
+    - 364:0 64
+    - 346:0 1
+  PvP:
+    delay: 15
+    items:
+    - 286:0 1
+    - 298:0 1
+    - 315:0 1
+    - 316:0 1
+    - 317:0 1
+    - 261:0 1
+    - 262:0 64
+    - 364:0 64
+    - 346:0 1
+                                    
